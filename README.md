@@ -6,7 +6,7 @@ API Endpoints
 GET /: This is the default route that renders the index.html file when the app is launched.
 GET /subscribers: Returns an array of all subscribers in the database.
 GET /subscribers/names: Returns an array of subscribers with only two fields, their name and subscribed channel.
-GET /subscribers/:id: Returns information about a subscriber based on their ID.
+GET /subscribers/:id : Returns information about a subscriber based on their ID.
 Application Folder Structure
 src/app.js: Handles incoming HTTP requests and responses.
 src/index.js: Connects to the server and starts it.
