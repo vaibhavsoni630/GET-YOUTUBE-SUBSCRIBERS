@@ -1,4 +1,4 @@
-#YOUTUBE-CHANNEL-SUBSCRIBER-API.
+#GET-YOUTUBE-SUBSCRIBERS.
 
 This is a simple RESTful API for getting information about YouTube channel subscribers. It is developed with Node.js and Express, and the database used for managing the subscriber data is MongoDB.
 
