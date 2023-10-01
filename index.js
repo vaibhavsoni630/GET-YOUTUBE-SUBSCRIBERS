@@ -4,7 +4,7 @@ const app = require("./src/app");
 const mongoose = require("mongoose");
 const Subscriber = require("./src/models/subscriber");
 
- // middleware to parse json bodies and url-encoded bodies
+ // middleware to parse json bodies and url-encoded bodies.
 app.use(express.json()); // parsing JSON bodies
 app.use(express.urlencoded({ extended: false })); // parsing URL-encoded bodies
 
