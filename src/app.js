@@ -2,7 +2,7 @@ const express = require("express"); // to import the express framework
 const path = require("path"); //  to import the path module
 const { ObjectId } = require("mongodb");
 //schema
-const schema = require("./models/subscriber"); //  to import the subscriber model
+const schema = require("./models/subscriber"); //  to import the subscriber model.
 const { error } = require("console"); //  to import the 'error' object
 
 const app = express(); // for create an express application
