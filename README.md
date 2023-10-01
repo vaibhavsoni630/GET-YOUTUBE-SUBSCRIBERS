@@ -10,15 +10,21 @@ API Endpoints
 
 /subscribers/:id - Returns the specific subscriber with the given id.
 
-Application Folder Structure
+Application Folder Structure.
+
 src/
 
-├── app.js // For handling requests and responses.
-├── index.js // To connect and start the server.
-├── createDatabase.js // To create the database on MongoDB.
-├── data.js // Data that has to be connected to the database.
-├── models/subscribers.js // For the schema.
-└── index.html // The home page for the application.
+app.js // For handling requests and responses.
+
+index.js // To connect and start the server.
+
+createDatabase.js // To create the database on MongoDB.
+
+data.js // Data that has to be connected to the database.
+
+models/subscribers.js // For the schema.
+
+index.html // The home page for the application.
 
 Installation.
 Install Node.js and MongoDB on your computer.
@@ -28,6 +34,7 @@ Create the database using npm run build.
 Start the server using npm run start.
 
 Dependencies.
+
 express.
 mongoose.
 
