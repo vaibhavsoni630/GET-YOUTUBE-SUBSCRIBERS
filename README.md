@@ -3,6 +3,7 @@ YouTube Channel Subscribers API
 This is a simple backend project that provides a RESTful API for retrieving information about YouTube channel subscribers. The project is built using Node.js and Express, with MongoDB as the database for managing subscriber data. Subscribers' data includes fields such as their ID, names, subscribed channels, and subscription dates.
 
 API Endpoints
+
 GET /: This is the default route that renders the index.html file when the app is launched.
 
 GET /subscribers: Returns an array of all subscribers in the database.
