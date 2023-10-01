@@ -8,7 +8,7 @@ This is a simple RESTful API for getting information about YouTube channel subsc
 
 /subscribers/names - Returns an array of subscribers with only two fields: their name and subscribed channel.
 
-/subscribers/:id - Returns the specific subscriber with the given id
+/subscribers/:id - Returns the specific subscriber with the given id.
 
 --**APPLICATION FOLDER STRUCTER**
 
