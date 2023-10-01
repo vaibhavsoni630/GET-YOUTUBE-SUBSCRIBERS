@@ -14,6 +14,7 @@ GET /subscribers/:id : Returns information about a subscriber based on their ID.
 
 
 Application Folder Structure
+
 src/app.js: Handles incoming HTTP requests and responses.
 src/index.js: Connects to the server and starts it.
 src/createDatabase.js: Used to create the MongoDB database.
